@@ -1,6 +1,6 @@
 class SuperHero
   attr_reader :name, :power, :bio
-  @@superheroes = []
+  @@all = []
 
   def initialize(params)
     @name = params[:name]
